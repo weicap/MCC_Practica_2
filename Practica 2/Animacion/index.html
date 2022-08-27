@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+    <script language="javascript" type="text/javascript" src="Node.js"></script>
+    <script language="javascript" type="text/javascript" src="Tree.js"></script>
+  </head>
+  <header>
+    <h1>Maestría en Ciencias de la Computación</h1>
+    <h3>Grupo 10</h3>
+    <!-- <img src="logo.jpg" alt="Logo Línea de Código" /> -->
+  </header>
+  <body>
+    <div class="user-interface">
+      <div class="options-header">
+        <h1>AVL TREE</h1>
+        <p>Values</p>
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+          <label class="onoffswitch-label" for="myonoffswitch"></label>
+        </div>
+      </div>
+      <hr />
+      <form class="options">
+        <div class="insert-node">
+          <input type="text" class="key" placeholder="Key">
+          <!--<input type="text" class="value" placeholder="Value">-->
+          <input type="submit" class="insertBtn" value="Insertar">
+        </div>
+        <div class="remove-node">
+          <input type="text" class="key" placeholder="Key">
+          <input type="submit" class="removeBtn" value="Eliminar">
+        </div>
+        <div class="find-node">
+          <input type="text" class="key" placeholder="Key">
+          <input type="submit" class="findBtn" value="Buscar">
+        </div>
+        <hr />
+
+        <hr />
+      </form>
+      <table class="tree-data">
+      </table>
+    </div>
+    <script language="javascript" type="text/javascript" src="main.js"></script>
+  </body>
+
+</html>
